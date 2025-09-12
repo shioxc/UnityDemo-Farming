@@ -49,6 +49,8 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         playMinute = 0;
         sr.allowOcclusionWhenDynamic = false;
+        Vector3 _pos = new Vector3(GeneralDataLoader.instance.database.database.x,GeneralDataLoader.instance.database.database.y,GeneralDataLoader.instance.database.database.z);
+        transform.position = _pos;
     }
     private void OnEnable()
     {

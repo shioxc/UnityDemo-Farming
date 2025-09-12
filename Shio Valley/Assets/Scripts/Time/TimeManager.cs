@@ -76,6 +76,9 @@ public class TimeManager : MonoBehaviour
     private void IniPlayer()
     {
         PlayerController controller = player.GetComponent<PlayerController>();
+        GeneralDataLoader.instance.database.database.x = player.transform.position.x;
+        GeneralDataLoader.instance.database.database.y = player.transform.position.y;
+        GeneralDataLoader.instance.database.database.z = player.transform.position.z;
         controller.canUse = true;
     }
     
