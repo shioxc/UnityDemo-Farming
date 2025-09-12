@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d1178eeb20fbaf240b1760e1a21a3a4a
+  m_SerializeEntries:
+  - m_GUID: 20897fd6860f88c4599e18ca0eb69bd3
+    m_Address: Assets/Prefabs/Slot.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d7dfa26e545e7a489fbe8479a3c46ad
+    m_Address: Assets/Prefabs/BagSlot.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93d06570531973642993e5da5390964a
+    m_Address: Assets/Prefabs/Shop/Good.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bea1ab1296db94640806559ae9b9a13d
+    m_Address: Assets/Prefabs/SaveSlot.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5934d18fcf7abc42b776e145d232ace
+    m_Address: Assets/Prefabs/DropItem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e1abe947bcefa1949b39532e2debca0e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a7fc8c8839092604e8cc0469e74aff4b, type: 2}
+    - {fileID: 11400000, guid: 5fe361ab60c1e0241bb36ad521f086e8, type: 2}

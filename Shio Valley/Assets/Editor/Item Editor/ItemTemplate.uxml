@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/Item%20Editor/ItemTemplate.uss?fileID=7433441132597879392&amp;guid=351c14776505a3046986d17451e37ca1&amp;type=3#ItemTemplate" />
+    <ui:VisualElement name="Item" style="flex-direction: row; height: 50px;">
+        <ui:VisualElement style="justify-content: center; width: 48px;">
+            <ui:VisualElement name="ItemImage" style="background-image: url(&quot;project://database/Assets/Art%20Assets/Map/spr_tileset_sunnysideworld_16px.png?fileID=431428271&amp;guid=98f60f070e415de48a8272430070be05&amp;type=3#spr_tileset_sunnysideworld_16px_1722&quot;); width: 32px; height: 32px; align-self: flex-end;" />
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" text="剑" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ItemName" style="font-size: 30px; -unity-text-align: middle-left; color: rgb(255, 255, 255);" />
+    </ui:VisualElement>
+</ui:UXML>

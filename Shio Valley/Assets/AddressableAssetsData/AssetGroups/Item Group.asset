@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Item Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Item Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ec3849a112319b946bd480753c2bd114
+  m_SerializeEntries:
+  - m_GUID: 02403f78b51e15d40a76388a6dc58897
+    m_Address: Rod
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02d9f8661caaac34ca07e53e739fa062
+    m_Address: CarrotSeed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fd1ebc72d5548d4bb681f0f43c53769
+    m_Address: Carrot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10e9e5674d173d149aa46b5785f41366
+    m_Address: Wheat_Seed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 167a16f16d7133540a9e75d12fc92243
+    m_Address: Shovel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18d5294055d71644fa291dfde1e0256e
+    m_Address: Acron
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 38a28a68e6424e9449830103dd1e38a6
+    m_Address: Pickaxe
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43e197204936d754d8dc851c517e113c
+    m_Address: Cabbage_Seed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 452422cad4cef8f4d8ecc4fc16323cad
+    m_Address: Radish_Seed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 452b50f665e814244ad6133ec2950d6e
+    m_Address: Wood
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66cc4b2b9dd609949b9c2da625513d26
+    m_Address: Pumpkin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6819e84d7f3ae5f48a7578598ec1cf0a
+    m_Address: Sunflower_Seed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cdda98b2a4140d4480eda33c0824d90
+    m_Address: Beetroot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6df5b494d07e3114f8c1144af4154cbc
+    m_Address: Potato
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7281bd4e84ddb5e42a12e8ecd8d94413
+    m_Address: Sunflower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 758fe28c7febea84da77fd57ac941a27
+    m_Address: Kale
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 761dca151e93e3645ab5a0b14655a543
+    m_Address: Potato_Seed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76eb98d6dcf967046bd886a22140d2a8
+    m_Address: Cauliflower_Seed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77fd4233c447ece48becb58013a82e57
+    m_Address: Sword
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 843794c6cd38fc948b2e2f8caae38aed
+    m_Address: Radish
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c1f8b1bd25df4a4a8e405203744e0af
+    m_Address: Hammer
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4620c2d038fbe249b933b92bab51d70
+    m_Address: Egg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac9a153daefc3334c9e4886d600c3bd9
+    m_Address: Cauliflower
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aea0ec1e55af0fd4193a8918ddfd1cb8
+    m_Address: Axe
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb80686330e2cd74dacd5bcba4cb20cd
+    m_Address: Wheat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c48501b154f857a4bada9cecd74ba1e1
+    m_Address: Kale_Seed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7bccfe8f668d5b40a5f0536c369af33
+    m_Address: Water
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9693814777286149941132a6f75220a
+    m_Address: Pumpkin_Seed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd0f0681c832cc54080d4609d3e6e5b7
+    m_Address: bed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1a35ec866552fd43802a9e299fd2843
+    m_Address: Parsnip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d30c774c72d5a0f49a6725102cb412da
+    m_Address: Fish
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d397895451c60534fab779b1915d3389
+    m_Address: Rock
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d498cb487bca96b489eb25d02c4e5b3c
+    m_Address: Beetroot_Seed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbd0af3df9823c347904d873ace6a3aa
+    m_Address: Parsnip_Seed
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f209a511d95a6a3478f323f56879e410
+    m_Address: Milk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5eddbcf03ecf824091248a1503f3c30
+    m_Address: Cabbage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e1abe947bcefa1949b39532e2debca0e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9b4105c0975e9b442bc7d1a053192cec, type: 2}
+    - {fileID: 11400000, guid: 882741f45f0c55345888e970c8bede80, type: 2}

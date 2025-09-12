@@ -1,0 +1,53 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Editor/Item%20Editor/ItemEditor.uss?fileID=7433441132597879392&amp;guid=db5157e90e56c1a43aecbd168e7fe488&amp;type=3#ItemEditor" />
+    <ui:VisualElement style="height: auto; width: auto; flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement style="width: 236px; border-left-width: 0; border-right-width: 1px; border-right-color: rgb(0, 0, 0);">
+            <ui:VisualElement style="height: 32px; flex-direction: row;">
+                <ui:Label tabindex="-1" text="物品列表" parse-escape-sequences="true" display-tooltip-when-elided="true" style="color: rgb(255, 255, 255); font-size: 21px; -unity-text-align: middle-left; flex-shrink: 1; width: auto; flex-grow: 1; padding-left: 1px; margin-left: 5px;" />
+                <ui:Button text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddButton" style="white-space: nowrap; -unity-text-align: middle-center; flex-shrink: 1; width: 30px; color: rgb(255, 255, 255); background-color: rgb(60, 60, 60);" />
+            </ui:VisualElement>
+            <ui:ScrollView name="ItemList" style="width: auto; flex-grow: 1; border-top-color: rgb(0, 0, 0); border-top-width: 1px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="ItemDetail" style="width: auto; flex-grow: 1; border-left-width: 1px; border-left-color: rgb(0, 0, 0); color: rgb(255, 255, 255); visibility: visible; display: none;">
+            <ui:VisualElement style="height: 32px; flex-direction: row;">
+                <ui:Label tabindex="-1" text="物品信息" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 20px; -unity-text-align: middle-left; flex-shrink: 1; flex-grow: 1; margin-left: 5px;" />
+                <ui:Button text="删除" parse-escape-sequences="true" display-tooltip-when-elided="true" name="DeleteButton" style="background-color: rgb(60, 60, 60); flex-shrink: 1; -unity-text-align: middle-center; margin-bottom: 0; margin-top: 4px; visibility: visible; display: none;" />
+            </ui:VisualElement>
+            <ui:ScrollView style="flex-grow: 1; flex-direction: column; visibility: visible;">
+                <ui:VisualElement name="VisualElement" style="height: 508px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; display: flex;">
+                    <ui:Label tabindex="-1" text=" 总体" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: rgb(32, 32, 32); height: 36px; -unity-text-align: middle-left; font-size: 18px;" />
+                    <ui:VisualElement style="flex-grow: 1; flex-direction: row; height: 290px;">
+                        <ui:VisualElement name="VisualElement" style="width: 167px; justify-content: center; background-color: rgba(0, 0, 0, 0);">
+                            <ui:VisualElement name="ItemImage" style="width: 64px; height: 64px; background-image: url(&quot;project://database/Assets/Art%20Assets/Map/spr_tileset_sunnysideworld_16px.png?fileID=431428271&amp;guid=98f60f070e415de48a8272430070be05&amp;type=3#spr_tileset_sunnysideworld_16px_1722&quot;); -unity-text-align: middle-center; transform-origin: center; align-items: stretch; align-self: center; justify-content: flex-start; flex-wrap: nowrap;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement style="flex-grow: 1; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; height: 454px;">
+                            <ui:IntegerField label="ID" value="0" name="Id" style="height: 24px; -unity-text-align: middle-left;" />
+                            <ui:TextField picking-mode="Ignore" label="Name" value="剑" name="Name" style="height: 24px; -unity-text-align: middle-left;" />
+                            <ui:IntegerField label="Price" value="0" name="Price" style="height: 24px; -unity-text-align: middle-left;" />
+                            <uie:ObjectField label="IconPath" name="IconPath" type="UnityEngine.Sprite, UnityEngine.CoreModule" allow-scene-objects="true" style="height: 24px; align-items: stretch; -unity-text-align: middle-left;" />
+                            <ui:EnumField label="Type" type="ItemEnum, Assembly-CSharp" name="Type" include-obsolete-values="false" style="-unity-text-align: middle-left; height: 24px;" />
+                            <ui:Toggle label="canUse" name="canUse" style="height: 24px; -unity-text-align: middle-left;" />
+                            <ui:Toggle label="canCustomized" name="canCustomized" style="height: 24px; -unity-text-align: middle-left;" />
+                            <ui:Toggle label="canEat" value="false" name="canEat" style="height: 24px; -unity-text-align: middle-left;" />
+                            <ui:IntegerField label="maxStack" value="0" name="maxStack" style="height: 24px; -unity-text-align: middle-left;" />
+                            <ui:VisualElement name="VisualElement" style="height: 178px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;">
+                                <ui:Label tabindex="-1" text="Season" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Label" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: rgb(32, 32, 32); height: 31px; -unity-text-align: middle-left; font-size: 18px;" />
+                                <ui:Toggle label="Spring" name="Spring" style="width: 187px;" />
+                                <ui:Toggle label="Summer" name="Summer" style="width: 187px;" />
+                                <ui:Toggle label="Autumn" name="Autumn" style="width: 187px;" />
+                                <ui:Toggle label="Winter" name="Winter" style="width: 187px;" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="VisualElement" style="height: 141px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; width: auto; flex-grow: 1;">
+                    <ui:Label tabindex="-1" text=" Description" parse-escape-sequences="true" display-tooltip-when-elided="true" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; background-color: rgb(32, 32, 32); height: 36px; -unity-text-align: middle-left; font-size: 18px;" />
+                    <ui:VisualElement style="flex-grow: 1; flex-direction: row;">
+                        <ui:TextField picking-mode="Ignore" value="道具" name="Description" multiline="true" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; flex-grow: 1; white-space: normal; flex-wrap: wrap;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:ScrollView>
+            <ui:Button text="保存" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SaveButton" style="background-color: rgb(60, 60, 60);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

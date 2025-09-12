@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SO Group
+  m_EditorClassIdentifier: 
+  m_GroupName: SO Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 8e14f13e87eed0d49ac56621ec566855
+  m_SerializeEntries:
+  - m_GUID: 109d0f086518b4743bfa8c784737df34
+    m_Address: Assets/DataSO/UnloadScenesEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c8634d06e5b9de40a4e1ba3860bba6f
+    m_Address: Assets/DataSO/OnPickupEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cbb6bac5b2fc964fa7b5508b676744e
+    m_Address: Assets/DataSO/Shop/TestShop.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22f5fb4c916a11c448c16402a4fe6f41
+    m_Address: Assets/DataSO/ItemUse/CreateEntityEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 431004d734a411e49955ca743caeff05
+    m_Address: Assets/DataSO/Entity/Event/DeleteEntityEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43d9a3280d0b3bb429e7e6280e6ac4c4
+    m_Address: Assets/DataSO/OnBagSlotChangedEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48c2525d12b7c2043b42a6de0d86e96a
+    m_Address: Assets/DataSO/Entity/Event/EntityUpdateEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e28cc09cf33b9b4bba90bd108c57687
+    m_Address: Assets/DataSO/ItemUse/Use/PickaxeUse.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 605ca03047cafa1478f8a52cde53366e
+    m_Address: Assets/DataSO/OnCursorChangedEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6129a3726efebb64abc7b7c2fb607368
+    m_Address: Assets/DataSO/ItemUse/ItemIdToEntityDataIdDic.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 680e0b6dcda6d0a43a201afe56083764
+    m_Address: Assets/DataSO/ShowDeleteSaveTip.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76a500514b7053446958d1d7b27973fc
+    m_Address: Assets/DataSO/ItemUse/Use/AxeUse.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88beb5989a57cdb408bb2476b9c3f7d9
+    m_Address: Assets/DataSO/ItemUse/Use/TreeSeedUse.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99850f5ea1067544ea5e6331f49871f5
+    m_Address: Assets/DataSO/OnSellEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a126eb8a6bb60604590dfbd478fcdafd
+    m_Address: Assets/DataSO/SaveAllMapEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a460bdb7403e44f4ea1459cb045724e4
+    m_Address: Assets/DataSO/TryGetPlayerTransEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a847135240ad70c4985098f9f71f07a6
+    m_Address: Assets/DataSO/ItemUse/Use/ShovelUse.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3602acedc722b6469a6b824bbf485ad
+    m_Address: Assets/DataSO/NextDayEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8fa9ef90317d7844b59bcbefa37f027
+    m_Address: Assets/DataSO/Entity/Event/EntityDropItemEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba6dd2ad4e4537e439b60a0db94cdd21
+    m_Address: Assets/DataSO/ItemUse/Use/WaterUse.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc02b047e7a1ade4c8233629c36f2079
+    m_Address: Assets/DataSO/GetEntityListEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8a1b0aa46ee64149a87ea3a3bd11b2d
+    m_Address: Assets/DataSO/ItemUse/Use/BedUse.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca200c9bb1c7d4142b1ac2aa0f838891
+    m_Address: Assets/DataSO/OnUIchangeEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc62705fd0fb3f44ca627c5247cfa807
+    m_Address: Assets/DataSO/ItemUse/ItemUseDicSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d38b77055e5dcd249aad614b265790bf
+    m_Address: Assets/DataSO/AfterDayChangedEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7152d44618539e4c9fd9ee43832fcec
+    m_Address: Assets/DataSO/OnSleepEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da3f67504bfb80f4b8c419daddea657c
+    m_Address: Assets/DataSO/Shop/OnOpenShopEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2ad720dd7281d84cb7f20efcb5cd18a
+    m_Address: Assets/DataSO/GetPlayerTransformEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e69f0f69ba3973d4283e5a3c32ca49f4
+    m_Address: Assets/DataSO/SceneMappingSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9daf60f8c698f74c9da004d4ace5174
+    m_Address: Assets/DataSO/ItemUse/Use/SeedUse.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed5d79828b5a48a47b5a7a0e358b4199
+    m_Address: Assets/DataSO/PlayerDropItemEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f25d83598787d1248aa3847b48e7d7f3
+    m_Address: Assets/DataSO/AfterLoadSceneEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4b1cd7624be5c54389e35f619b1f6ed
+    m_Address: Assets/DataSO/LoadMapEvent.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6e02c80d918dfe46953eaf57c04776e
+    m_Address: Assets/DataSO/LoadScenesEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fcd44490802d26649a00c57c01718dd3
+    m_Address: Assets/DataSO/TileSelectorEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e1abe947bcefa1949b39532e2debca0e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 22ea816f9d93a31488e3865d556a3c6e, type: 2}
+    - {fileID: 11400000, guid: 521d330e56407e04185e5b56c38020a6, type: 2}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c22cae6d29ba353488342a0c2a71e60a, type: 3}
+  m_Name: RadishEntity
+  m_EditorClassIdentifier: 
+  id: 18
+  entityName: "\u841D\u535C"
+  row: 1
+  col: 1
+  stages:
+  - sprite: {fileID: 21300000, guid: 87fa68318a3ce2f4a8832a3b7db0152e, type: 3}
+    duration: 2
+  - sprite: {fileID: 21300000, guid: a273f640462b2704bab7686f2c6637aa, type: 3}
+    duration: 2
+  - sprite: {fileID: 21300000, guid: 64181e7b98334e847bde2d2d8bf7ffd8, type: 3}
+    duration: 2
+  - sprite: {fileID: 21300000, guid: a833ded158b461d48be0f41cb4d2f9f2, type: 3}
+    duration: 0
+  loots:
+  - stage: 3
+    itemId: 37
+    num: 2

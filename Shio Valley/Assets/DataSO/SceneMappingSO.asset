@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07961d3bec4686041951fd4d7c664cab, type: 3}
+  m_Name: SceneMappingSO
+  m_EditorClassIdentifier: 
+  scenes:
+  - key: Menu
+    sceneRef:
+      m_AssetGUID: 8351620544b6ad14a88c1e16ed0a0927
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - key: IniScene
+    sceneRef:
+      m_AssetGUID: 688652d28d1ba3d46baf1d44ce43f710
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - key: MainFarm
+    sceneRef:
+      m_AssetGUID: c0bbc624585af194a904968d72a86b36
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0
+  - key: Persistent
+    sceneRef:
+      m_AssetGUID: f40d4d89eaa4c904d8a27d9b412cb836
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_EditorAssetChanged: 0

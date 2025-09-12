@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdbc9ee7e8fef9f41ba3bcca1bde358c, type: 3}
+  m_Name: TestShop
+  m_EditorClassIdentifier: 
+  goodslist:
+  - itemId: 1
+    num: 1
+    price: 100
+  - itemId: 2
+    num: 1
+    price: 100
+  - itemId: 3
+    num: 1
+    price: 100
+  - itemId: 4
+    num: 1
+    price: 100
+  - itemId: 5
+    num: 1
+    price: 100
+  - itemId: 6
+    num: 1
+    price: 100
+  - itemId: 7
+    num: 1
+    price: 100
+  - itemId: 11
+    num: 1
+    price: 10
+  - itemId: 12
+    num: 1
+    price: 15
+  - itemId: 13
+    num: 1
+    price: 20
+  - itemId: 14
+    num: 1
+    price: 25
+  - itemId: 15
+    num: 1
+    price: 5
+  - itemId: 16
+    num: 1
+    price: 30
+  - itemId: 17
+    num: 1
+    price: 35
+  - itemId: 18
+    num: 1
+    price: 40
+  - itemId: 19
+    num: 1
+    price: 45
+  - itemId: 20
+    num: 1
+    price: 15
+  - itemId: 21
+    num: 1
+    price: 15
+  - itemId: 22
+    num: 1
+    price: 10
+  - itemId: 50
+    num: 1
+    price: 55
+  - itemId: 51
+    num: 1
+    price: 45
+  - itemId: 60
+    num: 1
+    price: 10
+  - itemId: 61
+    num: 1
+    price: 10
+  - itemId: 100
+    num: 1
+    price: 75
+  - itemId: 200
+    num: 1
+    price: 55

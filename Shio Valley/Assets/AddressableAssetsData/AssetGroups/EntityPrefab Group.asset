@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: EntityPrefab Group
+  m_EditorClassIdentifier: 
+  m_GroupName: EntityPrefab Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 826c1c15d4873b445b77c0be653ee5c5
+  m_SerializeEntries:
+  - m_GUID: 1a30bab13e4722f42ba512a4482f6743
+    m_Address: Bed
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityPrefab
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d6f285cc651b8f4fa1226225619007b
+    m_Address: TreePrefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityPrefab
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecd5adf09aad2874ca3202b30b0af57e
+    m_Address: Crop
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityPrefab
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee2ae75f245d39b479f70482f8eb24c5
+    m_Address: Soil
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityPrefab
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3e251882ba7c444fa02d797285666d2
+    m_Address: RockPrefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityPrefab
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e1abe947bcefa1949b39532e2debca0e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e27c303099a8a59438ad9ba607d5e238, type: 2}
+    - {fileID: 11400000, guid: 1ea5177c1f97cfb488f7fbccd6db8a48, type: 2}

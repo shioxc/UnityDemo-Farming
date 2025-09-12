@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Entity Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Entity Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c32edbb9691de2449b9fc8736315cbbb
+  m_SerializeEntries:
+  - m_GUID: 16a39c801bbfc85468917a7c3b9ace75
+    m_Address: BedEntity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a2f45e197eb3d84f93ca8e9cd2b419c
+    m_Address: BeetrootEntity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d44c5bd91adc194cb1a107ec067fbf8
+    m_Address: SunflowerEntity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 300fe91696f2bab408fe375d12e08388
+    m_Address: ParsnipEntity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c65be5ba6e3f7a409df4cab8d3d883e
+    m_Address: WheatEntity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d54e9f1c949b4b4f8f5c736d050e1a3
+    m_Address: RockEntity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7357a9abe511e5748b18e896c3514498
+    m_Address: SoilEntity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73966bcbf9683584d82828a3fad3ed80
+    m_Address: CabbageEntity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b6388aa3a9744a4d9d396f32e1f2cb2
+    m_Address: RadishEntity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91e877916ca5305439202867e20ea599
+    m_Address: CauliflowerEntity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a701f90e82458a94494486f9470b6c2b
+    m_Address: PumpkinEntity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c122d2fb92e5e8e42968cbfd5daa2b94
+    m_Address: KaleEntity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d209bb54e7cb52341afe0c0bc6aba44e
+    m_Address: TreeEntity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d595da37d0dad5e48b632ea133525c2f
+    m_Address: PotatoEntity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityData
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb6315b6b17a53541b5c259622087501
+    m_Address: CarrotEntity
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - EntityData
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: e1abe947bcefa1949b39532e2debca0e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 02bffea8b971e7944b938a431a77e232, type: 2}
+    - {fileID: 11400000, guid: e831a255e96b4104f84b15bbce9f3983, type: 2}
