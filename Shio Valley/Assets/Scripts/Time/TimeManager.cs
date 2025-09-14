@@ -56,7 +56,7 @@ public class TimeManager : MonoBehaviour
             instance.minute -= 60;
             instance.hour++;
         }
-        if (instance.hour >= 23)
+        if (instance.hour >= 24)
         {
             instance.hour = 0;
         }
