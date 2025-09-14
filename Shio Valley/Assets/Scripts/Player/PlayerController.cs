@@ -153,6 +153,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnUseItem(InputAction.CallbackContext context)
     {
+        if (Time.timeScale <= 0) return;
         if (context.started && canUse && useTimeCnt>=useDuration)
         {
             useTimeCnt = 0;
