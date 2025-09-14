@@ -24,6 +24,7 @@
     <type fullname="EntityListEventChannelSO" preserve="all" />
     <type fullname="EntitySaveLoader" preserve="all" />
     <type fullname="EntranceChecker" preserve="all" />
+    <type fullname="ExtraSelectManager" preserve="all" />
     <type fullname="FolderReader" preserve="all" />
     <type fullname="GameobjectEventSO" preserve="all" />
     <type fullname="GeneralDataLoader" preserve="all" />

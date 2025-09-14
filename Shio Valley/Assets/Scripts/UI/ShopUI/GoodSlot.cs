@@ -19,6 +19,7 @@ public class GoodSlot : MonoBehaviour,IPointerDownHandler,IPointerUpHandler,IPoi
     public TMP_Text goodName;
     public TMP_Text priceText;
     public Image icon;
+    public ExtraSelectManager extraSelectManager;
     private void Update()
     {
         timer -= Time.unscaledDeltaTime;
@@ -31,12 +32,13 @@ public class GoodSlot : MonoBehaviour,IPointerDownHandler,IPointerUpHandler,IPoi
     {
         Destroy(this.gameObject);
     }
-    public void Initialized(Goods _good)
+    public void Initialized(Goods _good,ExtraSelectManager _extraSelectManager)
     {
         good = _good;
         Item item = ItemLoader.GetItemById(good.itemId);
         goodName.text = $"{item.name}x{good.num}";
         priceText.text = $"{good.price}";
+        extraSelectManager = _extraSelectManager;
         SpriteCache.GetSprite(item.iconKey, sprite =>
         {
             if(icon != null)
@@ -70,10 +72,12 @@ public class GoodSlot : MonoBehaviour,IPointerDownHandler,IPointerUpHandler,IPoi
     public void OnPointerEnter(PointerEventData eventData)
     {
         background.color = new Color(0.8f,0.8f,0.8f,1f);
+        extraSelectManager.SelectSlot(good.itemId);
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
         background.color = Color.white;
+        extraSelectManager.UnSelectSlot();
     }
 }

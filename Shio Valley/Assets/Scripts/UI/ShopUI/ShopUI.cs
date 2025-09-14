@@ -10,6 +10,7 @@ public class ShopUI : MonoBehaviour
     public Transform content;
     public ScrollRect scrollRect;
     public GameObject gold;
+    public ExtraSelectManager extraSelectManager;
     private void OnEnable()
     {
         StartCoroutine(ResetScroll());
@@ -28,7 +29,7 @@ public class ShopUI : MonoBehaviour
         foreach (var good in list)
         {
             var obj=Instantiate(goodPrefab,content);
-            obj.GetComponent<GoodSlot>().Initialized(good);
+            obj.GetComponent<GoodSlot>().Initialized(good,extraSelectManager);
         }
         gold.SetActive(true);
     }

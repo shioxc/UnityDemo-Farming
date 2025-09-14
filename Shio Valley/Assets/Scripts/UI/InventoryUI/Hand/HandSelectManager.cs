@@ -57,6 +57,7 @@ public class HandSelectManager : MonoBehaviour
 
     private void ScrollSelect()
     {
+        if(Time.timeScale<=0) return;
         float scroll = Mouse.current.scroll.ReadValue().y;
 
         if (scroll > 0) // ÏòÉÏ¹ö
