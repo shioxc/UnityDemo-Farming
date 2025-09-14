@@ -65,23 +65,22 @@ public class TreeEntity : Entity,IGrowable,IAxeInteractable,IHurtable,IBreakable
     public void grow()
     {
         int nowDay = GeneralDataLoader.instance.database.database.totalDay;
-        if (lastDay >= nowDay || stage == data.stages.Count-1) return;
-        int totalDays = nowDay - lastDay;
-        int lastYearDay = lastDay % 72;
-        int nowYearDay = nowDay % 72;
-        int fullYears = (nowDay / 72) - (lastDay / 72);
-        int growthDays = fullYears * 54;
-        int startDay = lastYearDay;
-        int endDay = nowYearDay;
-        if (startDay < 54)
-            growthDays += Math.Min(endDay, 54) - startDay;
-        if (endDay >= 54 && startDay < 54)
-            growthDays += 0;
-        else if (endDay < 54 && startDay >= 54)
-            growthDays += endDay; 
-        else if (endDay < 54 && startDay < 54)
-            growthDays += endDay - startDay;
-        duration = growthDays;
+        int growthDays = 0;
+        int fullYears = (nowDay / 112) - (lastDay / 112) - 1;
+        if (fullYears >= 0)
+        {    
+            growthDays += fullYears * 84;
+            int startYearDay = lastDay % 112;
+            growthDays += Math.Max(0, 84 - startYearDay);
+            int endYearDay = nowDay % 112;
+            growthDays += Math.Min(endYearDay, 84);
+        }
+        else
+        {
+            growthDays += Math.Max(0,Math.Min(84, nowDay % 112) - lastDay % 112);
+        }
+
+        duration += growthDays;
         for (int i = stage;i<data.stages.Count;i++)
         {
             if(data.stages[i].duration <= duration && i!=data.stages.Count-1)
