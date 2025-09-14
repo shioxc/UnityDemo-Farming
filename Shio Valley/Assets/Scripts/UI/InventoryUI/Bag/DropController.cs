@@ -11,21 +11,17 @@ public class DropController : MonoBehaviour, IPointerClickHandler
 
     public Vector3IntIntEventSO PlayerDropItemEventSO;
     public VoidEventSO OnPickupEventSO;
-    private void OnDisable()
-    {
-        pickedSlot = null;
-    }
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (pickedSlot == null || bagSelector.picking != true)
+        if (bagSelector.pickedSlot == null || bagSelector.picking != true)
         {
             return;
         }
-        PlayerDropItemEventSO.RaiseEvent(player.transform.position,pickedSlot.item.id,pickedSlot.num);
+        PlayerDropItemEventSO.RaiseEvent(player.transform.position,bagSelector.pickedSlot.GetComponent<SlotUI>().item.id,bagSelector.pickedSlot.GetComponent<SlotUI>().num);
         Inventory inventory = new Inventory();
         inventory.itemId = 0;
         inventory.storeNum = 0;
-        InventoryLoader.instance.database.inventories[pickedSlot.index] = inventory;
+        InventoryLoader.instance.database.inventories[bagSelector.pickedSlot.GetComponent<SlotUI>().index] = inventory;
         OnPickupEventSO.RaiseEvent();
         bagSelector.picking = false;
         bagSelector.pickedSlot = null;
