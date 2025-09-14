@@ -16,6 +16,7 @@ public class EntityEveryMap : MonoBehaviour
     public EntityListEventChannelSO GetEntityListEventSO;
     public Vector3IntAndEntityEventSO DeleteEntityEventSO;
     public CreateEntityEventSO CreateEntityEventSO;
+    public VoidEventSO EntityRefreshEventSO;
     public void Awake()
     {
         mapName = mapLoader.GetComponent<MapLoader>().mapName;
@@ -26,14 +27,14 @@ public class EntityEveryMap : MonoBehaviour
         CreateEntityEventSO.OnEventRaised += CreateEntity;
         DeleteEntityEventSO.OnEventRaised += DeleteEntity;
         GetEntityListEventSO.OnRequest += ProvideEntityList;
-        EntityUpdateEventSO.onEventRaised += Refresh;
+        EntityRefreshEventSO.onEventRaised += Refresh;
     }
     private void OnDisable()
     {
         CreateEntityEventSO.OnEventRaised -= CreateEntity;
         DeleteEntityEventSO.OnEventRaised -= DeleteEntity;
         GetEntityListEventSO.OnRequest -= ProvideEntityList;
-        EntityUpdateEventSO.onEventRaised -= Refresh;
+        EntityRefreshEventSO.onEventRaised -= Refresh;
         Refresh();
     }
     private void LoadEntity()
@@ -78,6 +79,7 @@ public class EntityEveryMap : MonoBehaviour
         List<EntitySaveData> entities = new List<EntitySaveData>();
         foreach(Transform entity in transform)
         {
+            if (entity == null) continue;
             entity.GetComponent<Entity>().cellPos = new Vector3Int(Mathf.FloorToInt(entity.position.x),Mathf.FloorToInt(entity.position.y),Mathf.FloorToInt(entity.position.z));
             entities.Add(entity.GetComponent<Entity>().ToSaveData());
         }

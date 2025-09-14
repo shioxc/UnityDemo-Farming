@@ -172,6 +172,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f24fa2a2f91eb2145866db66069b9e4c
+    m_Address: Assets/DataSO/Entity/Event/EntityRefreshEventSO.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f25d83598787d1248aa3847b48e7d7f3
     m_Address: Assets/DataSO/AfterLoadSceneEventSO.asset
     m_ReadOnly: 0

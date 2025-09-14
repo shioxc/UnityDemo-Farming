@@ -1885,6 +1885,7 @@ MonoBehaviour:
   AfterDayChangedEventSO: {fileID: 11400000, guid: d38b77055e5dcd249aad614b265790bf, type: 2}
   EntityUpdateEventSO: {fileID: 11400000, guid: 48c2525d12b7c2043b42a6de0d86e96a, type: 2}
   OnSleepEventSO: {fileID: 11400000, guid: d7152d44618539e4c9fd9ee43832fcec, type: 2}
+  EntityRefreshEventSO: {fileID: 11400000, guid: f24fa2a2f91eb2145866db66069b9e4c, type: 2}
 --- !u!1001 &249516675
 PrefabInstance:
   m_ObjectHideFlags: 0

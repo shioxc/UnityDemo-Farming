@@ -21,6 +21,7 @@ public class TimeManager : MonoBehaviour
     public VoidEventSO AfterDayChangedEventSO;
     public VoidEventSO EntityUpdateEventSO;
     public VoidEventSO OnSleepEventSO;
+    public VoidEventSO EntityRefreshEventSO;
 
     public static TimeManager instance { get;private set;}
 
@@ -96,6 +97,8 @@ public class TimeManager : MonoBehaviour
         instance.hour = 6f;
         instance.minute = 0f;
         EntityUpdateEventSO.RaiseEvent();
+        yield return null;
+        EntityRefreshEventSO.RaiseEvent();
         AfterDayChangedEventSO.RaiseEvent();
 
         yield return StartCoroutine(FadeOut());

@@ -63,7 +63,7 @@ public class SoilEntity : Entity,IWaterable,IPickaxeInteractable,IBreakable
         {
             isPlanted = Convert.ToBoolean(_isPlanted);
         }
-        if (data.extra.TryGetValue("isPlanted", out var _duration))
+        if (data.extra.TryGetValue("duration", out var _duration))
         {
             duration = Convert.ToInt32(_duration);
         }
