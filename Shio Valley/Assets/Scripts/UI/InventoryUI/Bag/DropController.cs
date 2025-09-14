@@ -17,9 +17,10 @@ public class DropController : MonoBehaviour, IPointerClickHandler
     }
     public void OnPointerClick(PointerEventData eventData)
     {
-        Debug.Log("click");
-        if (pickedSlot == null||bagSelector.picking != true)
-        return;
+        if (pickedSlot == null || bagSelector.picking != true)
+        {
+            return;
+        }
         PlayerDropItemEventSO.RaiseEvent(player.transform.position,pickedSlot.item.id,pickedSlot.num);
         Inventory inventory = new Inventory();
         inventory.itemId = 0;
