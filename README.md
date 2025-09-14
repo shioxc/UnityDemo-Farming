@@ -18,3 +18,5 @@
 - 右键交互收获
 - 商店左键全售出，右键单卖，
 - 左键购物按住连购
+### 预览
+- [阿b](https://www.bilibili.com/video/BV14tpPzFEED/?spm_id_from=333.1387.upload.video_card.click&vd_source=98989d527ee6fcb0f74307ffce48c168)
